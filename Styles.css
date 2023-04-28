@@ -1,4 +1,8 @@
 
+@font-face {
+    font-family: 'Fluent Icons';
+    src: url("fonts/fluenticons.ttf");
+}
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
@@ -6,6 +10,7 @@
 
 body {
     background: white;
+    margin: 0px;
 }
 h1 {
     font-size: 2em;
@@ -43,29 +48,29 @@ h6 {
     min-width: 32px;
     border: solid;
     border-width: 1px;
-    background-color: #FFFFFF08;
+    background-color: #ffffff08;
     padding-left: 10px;
     padding-right: 10px;
     border-style: solid;
-    border-color: #0000000E #0000000E #00000027 #0000000E;
+    border-color: #0000000e #0000000e #00000027 #0000000e;
     border-width: 1pt;
     border-radius: 4px;
-    background-color: #FFFFFF08
+    background-color: #ffffff08
 }
 
     .winui-button:hover {
-        background-color: #9C9C9C13;
+        background-color: #9c9c9c13;
     }
 
     .winui-button:active {
-        border-color: #0000000E;
-        background-color: #FFFFFF02;
+        border-color: #0000000e;
+        background-color: #ffffff02;
         color: #5D5D5D
     }
 
     .winui-button:disabled {
-        border-color: #0000000E;
-        background-color: #FFFFFF02;
+        border-color: #0000000e;
+        background-color: #ffffff02;
         color: #5D5D5D
     }
 
@@ -85,6 +90,11 @@ h6 {
         background-color: #00000009;
     }
 
+    .winui-hyperlink-button:disabled {    
+        color: #5d5d5d;
+        background-color: transparent;
+    }
+
 .unsel {
     pointer-events: none;
     user-select: none;
@@ -97,30 +107,50 @@ h6 {
 */
 
 .winui-accent {
-    background-color: #0067C0;
+    background-color: #0067c0;
     color: white;
 }
     .winui-accent:hover {
-        background-color: #1975C5;
+        background-color: #1975c5;
     }
 
     .winui-accent:active {
-        background-color: #3183CA;
+        background-color: #3183cA;
     }
 
 .winui-accent-3d {
-    background-color: #0067C0;
-    border-color: #1473C5 #1473C5 #003E73 #1473C5;
+    background-color: #0067c0;
+    border-color: #1473c5 #1473c5 #003e73 #1473c5;
     color: white;
 }
 
     .winui-accent-3d:hover {
-        background-color: #1975C5;
-        border-color: #2B80CA #2B80CA #0F4676 #2B80CA;
+        background-color: #1975c5;
+        border-color: #2b80ca #2b80ca #0f4676 #2b80ca;
     }
 
     .winui-accent-3d:active {
-        background-color: #3183CA;
+        background-color: #3183ca;
         border-color: transparent;
-        color: #C2DAEF;
+        color: #c2daef;
     }
+
+.top-bar {
+    height: 40px; 
+    background-color: #f3f3f3; 
+    border-bottom-style: solid; 
+    border-bottom-color: #e6e6e6; 
+    border-bottom-width: 1pt;
+    white-space: nowrap;
+}
+
+.fluent-icon {
+    font-family: 'Fluent Icons';
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+}
+
+.main-content {
+    margin: 8px;
+}
