@@ -95,7 +95,7 @@ h6 {
         background-color: transparent;
     }
 
-.unsel {
+label, span, .unsel {
     pointer-events: none;
     user-select: none;
 }
@@ -154,3 +154,4 @@ h6 {
 .main-content {
     margin: 8px;
 }
+
