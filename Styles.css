@@ -9,7 +9,7 @@
 }
 
 body {
-    background: white;
+    background: #f9f9f9;
     margin: 0px;
 }
 h1 {
@@ -55,7 +55,7 @@ h6 {
     border-color: #0000000e #0000000e #00000027 #0000000e;
     border-width: 1pt;
     border-radius: 4px;
-    background-color: #ffffff08
+    background-color: #ffffff80
 }
 
     .winui-button:hover {
@@ -155,3 +155,30 @@ label, span, .unsel {
     margin: 8px;
 }
 
+.winui-card {
+    background-color: #ffffff80;
+    border-color: #0000000e #0000000e #00000027 #0000000e;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 #00000020;
+}
+
+.winui-card-button {
+    background-color: #ffffff80;
+    border-color: #0000000e #0000000e #00000027 #0000000e;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 #00000020;
+}
+
+    .winui-card-button:hover {
+        background-color: #9c9c9c13;
+    }
+
+    .winui-card-button:active {
+        background-color: #ffffff02;
+        border-color: #0000000e;
+        color: #5D5D5D
+    }
